@@ -25,6 +25,24 @@
     font-family: 'IBM Plex Sans', sans-serif;
   }
 
+  .divSection-A{
+    display:flex;
+    align-items: end;
+    //display:block;
+  }
+      
+
+  @media screen  and (width<= 1200px)
+    {
+      .divSection-C{
+        display:none;
+
+      }
+
+    }
+
+    
+
   @media screen  and (width<= 768px){
 
     .container-background-text{
@@ -34,12 +52,15 @@
         width: 90%;
         
       }
-     }
-/*
-     @media screen  and (width<= 320px){
-
-      .container-background-text{
-        position:relative
-        
+    .divSection-A{
+        display:none;
+        //display:block;
       }
-       }  */
+
+     
+     }
+
+     @media screen  and (width<= 576px){
+
+      
+       }  
