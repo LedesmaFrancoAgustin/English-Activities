@@ -30,6 +30,6 @@ const bntAEgg = document.getElementById("bntA-Egg")
 const bntAnEgg = document.getElementById(`bntAn-Egg`)
 const spanEgg = document.getElementById(`spanEgg`)
 
-bntAEgg.addEventListener('click',() => {spanEgg.innerHTML = "Correcto";bntAEgg.style.color = "white"; bntAEgg.style.backgroundColor = "green";bntAEgg.style.scale = "1.2";bntAnEgg.style.display = "none"}
+bntAEgg.addEventListener('click',() => {spanEgg.innerHTML = "Incorrecto";bntAEgg.style.color = "white"; bntAEgg.style.backgroundColor = "red"}
 )
-bntAnEgg.addEventListener('click',() => {spanEgg.innerHTML = "Incorrecto";bntAnEgg.style.color = "white"; bntAnEgg.style.backgroundColor = "red";})
+bntAnEgg.addEventListener('click',() => {spanEgg.innerHTML = "Correcto";bntAnEgg.style.color = "white"; bntAnEgg.style.backgroundColor = "green";bntAnEgg.style.scale = "1.2";bntAEgg.style.display = "none"})
