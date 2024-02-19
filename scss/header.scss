@@ -10,7 +10,7 @@
 }
 
 .iconoZoom {
-    animation: zoom 5s infinite;
+    animation: zoom 6s infinite;
   }
   
   @keyframes zoom  {
@@ -19,7 +19,7 @@
       opacity: 1;
     }
     50% {
-      transform: scale(1.3);
+      transform: scale(1.2);
     }
     100% {
       transform: scale(1);
@@ -33,8 +33,8 @@
     transition: scale 3s;
 }
 
-.transitionIcon:hover{
-    transform:  scale(1.1);
+.transitionIcon:hover + .transitionIcon{
+    transform:  scale(2);
     border-bottom: 2px solid rgba(68, 68, 68, 0.3);
    // filter: opacity(0.5);
 

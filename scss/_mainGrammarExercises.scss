@@ -1,0 +1,52 @@
+.card{
+  
+    background-color: #fff;
+    border:none;
+    border-radius: 10px;
+    width: 190px;
+    min-height: 375px;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+     .image-container{
+  
+       position: relative;
+
+    }
+
+}
+ 
+.thumbnail-image{
+    border-radius: 10px !important;
+    height: 300px; 
+    width: 100%;
+}
+
+.dress-name{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    //width: 75%;
+  }
+.divActivity-header{
+    background: rgb(242,216,213);
+    background: linear-gradient(175deg, rgba(242,216,213,1) 58%, rgba(235,181,176,1) 100%);;
+
+    border-radius: 5px;
+}
+
+.aLink{
+    text-decoration: none;
+}
+.transitionDiv{
+    transition: scale 3s;
+}
+
+.transitionDiv:hover {
+    transform:  scale(1.1);
+    border-bottom: 2px solid rgba(68, 68, 68, 0.3);
+   // filter: opacity(0.5);
+
+ 
+}
+

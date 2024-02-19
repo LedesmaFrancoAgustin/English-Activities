@@ -14,7 +14,7 @@
 }
 
 .iconoZoom {
-  animation: zoom 5s infinite;
+  animation: zoom 6s infinite;
 }
 
 @keyframes zoom {
@@ -23,7 +23,7 @@
     opacity: 1;
   }
   50% {
-    transform: scale(1.3);
+    transform: scale(1.2);
   }
   100% {
     transform: scale(1);
@@ -33,8 +33,8 @@
   transition: scale 3s;
 }
 
-.transitionIcon:hover {
-  transform: scale(1.1);
+.transitionIcon:hover + .transitionIcon {
+  transform: scale(2);
   border-bottom: 2px solid rgba(68, 68, 68, 0.3);
 }
 
@@ -264,6 +264,99 @@
     transform: rotate(0deg);
     object-fit: cover;
   }
+}
+.card {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 190px;
+  min-height: 375px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card .image-container {
+  position: relative;
+}
+
+.thumbnail-image {
+  border-radius: 10px !important;
+  height: 300px;
+  width: 100%;
+}
+
+.dress-name {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.divActivity-header {
+  background: rgb(242, 216, 213);
+  background: linear-gradient(175deg, rgb(242, 216, 213) 58%, rgb(235, 181, 176) 100%);
+  border-radius: 5px;
+}
+
+.aLink {
+  text-decoration: none;
+}
+
+.transitionDiv {
+  transition: scale 3s;
+}
+
+.transitionDiv:hover {
+  transform: scale(1.1);
+  border-bottom: 2px solid rgba(68, 68, 68, 0.3);
+}
+
+.divBackgroundActivity {
+  background: #e8cbc0;
+  background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+  background: linear-gradient(to right, #e8cbc0, #636fa4);
+  min-height: 100vh;
+}
+
+.divActivity-An-A {
+  background-color: rgba(206, 185, 228, 0.781);
+  border-radius: 30px;
+}
+
+.divCarsQuestion {
+  width: 2px;
+  background-color: rgba(206, 185, 228, 0.781);
+  border-radius: 25px;
+  border: 2px solid rgb(184, 143, 224);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonA {
+  background-color: rgba(68, 188, 243, 0.603);
+  border-radius: 10px;
+  height: 35px;
+  width: 70px;
+}
+
+.buttonA:hover {
+  transform: scale(1.1);
+  background-color: rgb(68, 188, 243);
+  border-bottom: 2px solid rgba(68, 68, 68, 0.3);
+}
+
+.buttonAn {
+  background-color: rgba(68, 100, 243, 0.603);
+  border-radius: 10px;
+  height: 35px;
+  width: 70px;
+}
+
+.buttonAn:hover {
+  transform: scale(1.1);
+  background-color: rgba(68, 100, 243, 0.863);
+  border-bottom: 2px solid rgba(68, 68, 68, 0.3);
+}
+
+.txtSpanAnswer {
+  font-size: 25px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=estilo.css.map */
